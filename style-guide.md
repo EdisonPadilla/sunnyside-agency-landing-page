@@ -35,8 +35,10 @@ The designs were created to the following widths:
 
 - Family: [Barlow](https://fonts.google.com/specimen/Barlow)
 - Weights: 600
+- font-family: 'Barlow', sans-serif;
 - Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
 - Weights: 700, 900
+- font-family: 'Fraunces', serif;
 
 ## Icons
 
