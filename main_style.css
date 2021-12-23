@@ -165,3 +165,38 @@ nav {
 .title-section-2 {
   margin-bottom: 18px;
 }
+
+.testimonials-section {
+  padding: 45px 5%;
+}
+
+.title-testimonials {
+  color: var(--grayish-blue);
+  font-size: 0.9em;
+}
+
+.testimonials-section article {
+  padding-top: 45px;
+}
+
+.client-photo {
+  width: 63px;
+  height: 63px;
+  border-radius: 50%;
+}
+
+.testimony {
+  margin: 18px 0;
+  color: var(--very-dark-grayish-blue);
+}
+
+.client-name {
+  font-size: 0.9em;
+  color: var(--very-dark-desaturated-blue);
+}
+
+.client-profession {
+  margin-top: 9px;
+  color: var(--grayish-blue);
+  font-size: 0.8em;
+}
