@@ -12,7 +12,15 @@
       href="./images/favicon-32x32.png"
     />
 
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+
+    <!-- My Custom Css-->
     <link rel="stylesheet" href="main_style.css" />
+
     <title>Frontend Mentor | Sunnyside agency landing page</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -31,7 +39,9 @@
       <header>
         <nav>
           <img src="./images/logo.svg" alt="" class="nav-brand" />
-          <img src="./images/icon-hamburger.svg" alt="" />
+          <div class="ham-btn">
+            <img class="icon-ham" src="./images/icon-hamburger.svg" alt="" />
+          </div>
           <ul class="nav-menu">
             <li class="menu-triangle"></li>
             <li><button>About</button></li>
@@ -46,14 +56,8 @@
         </figure>
       </header>
       <section class="section-1">
-        <article>
-          <figure>
-            <img
-              src="./images/mobile/image-transform.jpg"
-              alt=""
-              class="img-size"
-            />
-          </figure>
+        <article class="article-1">
+          <figure class="img-transform img-size"></figure>
           <div class="text-content">
             <h2 class="fraunces-font title-section-1">Transform your brand</h2>
             <p>
@@ -61,17 +65,11 @@
               brands grow fast. Engage your clients through compelling visuals
               that do most of the marketing for you.
             </p>
-            <a class="fraunces-font" href="#">LEARN MORE</a>
+            <a class="learnmore-link fraunces-font" href="#">LEARN MORE</a>
           </div>
         </article>
-        <article>
-          <figure>
-            <img
-              src="./images/mobile/image-stand-out.jpg"
-              alt=""
-              class="img-size"
-            />
-          </figure>
+        <article class="article-2">
+          <figure class="img-stand-out img-size"></figure>
           <div class="text-content">
             <h2 class="fraunces-font title-section-1">
               Stand out to the right audience
@@ -81,7 +79,7 @@
               photographers, videographers, and copywriters, we'll build and
               extend your brand in digital places.
             </p>
-            <a class="fraunces-font" href="#">LEARN MORE</a>
+            <a class="learnmore-link fraunces-font" href="#">LEARN MORE</a>
           </div>
         </article>
       </section>
@@ -104,79 +102,80 @@
       </section>
       <section class="testimonials-section">
         <h2 class="title-testimonials fraunces-font">CLIENT TESTIMONIALS</h2>
-        <article>
-          <figure>
-            <img src="./images/image-emily.jpg" alt="" class="client-photo" />
-          </figure>
-          <p class="testimony">
-            We put our trust in Sunnyside and they delivered, making sure our
-            needs were met and deadlines were always hit.
-          </p>
-          <p class="client-name fraunces-font">Emily R.</p>
-          <p class="client-profession">Marketing Director</p>
-        </article>
-        <article>
-          <figure>
-            <img src="./images/image-thomas.jpg" alt="" class="client-photo" />
-          </figure>
-          <p class="testimony">
-            Sunnyside's enthusiasm coupled with their keen interest in our
-            brand's success made it a satisfying and enjoyable experience.
-          </p>
-          <p class="client-name fraunces-font">Thomas S.</p>
-          <p class="client-profession">Chief Operating Officer</p>
-        </article>
-        <article>
-          <figure>
-            <img src="./images/image-jennie.jpg" alt="" class="client-photo" />
-          </figure>
-          <p class="testimony">
-            Incredible end result! Our sales increased over 400% when we worked
-            with Sunnyside. Highly recommended!
-          </p>
-          <p class="client-name fraunces-font">Jennie F.</p>
-          <p class="client-profession">Business Owner</p>
-        </article>
+        <div class="testimonials-articles-box">
+          <article>
+            <figure>
+              <img src="./images/image-emily.jpg" alt="" class="client-photo" />
+            </figure>
+            <p class="testimony">
+              We put our trust in Sunnyside and they delivered, making sure our
+              needs were met and deadlines were always hit.
+            </p>
+            <p class="client-name fraunces-font">Emily R.</p>
+            <p class="client-profession">Marketing Director</p>
+          </article>
+          <article>
+            <figure>
+              <img
+                src="./images/image-thomas.jpg"
+                alt=""
+                class="client-photo"
+              />
+            </figure>
+            <p class="testimony">
+              Sunnyside's enthusiasm coupled with their keen interest in our
+              brand's success made it a satisfying and enjoyable experience.
+            </p>
+            <p class="client-name fraunces-font">Thomas S.</p>
+            <p class="client-profession">Chief Operating Officer</p>
+          </article>
+          <article>
+            <figure>
+              <img
+                src="./images/image-jennie.jpg"
+                alt=""
+                class="client-photo"
+              />
+            </figure>
+            <p class="testimony">
+              Incredible end result! Our sales increased over 400% when we
+              worked with Sunnyside. Highly recommended!
+            </p>
+            <p class="client-name fraunces-font">Jennie F.</p>
+            <p class="client-profession">Business Owner</p>
+          </article>
+        </div>
       </section>
       <section>
-        <figure>
-          <img
-            src="./images/mobile/image-gallery-milkbottles.jpg"
-            alt=""
-            class="img-size"
-          />
-          <img
-            src="./images/mobile/image-gallery-orange.jpg"
-            alt=""
-            class="img-size"
-          />
-          <img
-            src="./images/mobile/image-gallery-cone.jpg"
-            alt=""
-            class="img-size"
-          />
-          <img
-            src="./images/mobile/image-gallery-sugar-cubes.jpg"
-            alt=""
-            class="img-size"
-          />
+        <figure class="gallery-box">
+          <div class="img img-milk"></div>
+          <div class="img img-orange"></div>
+          <div class="img img-cone"></div>
+          <div class="img img-sugar"></div>
         </figure>
       </section>
-      <section>
+      <section class="footer">
         <figure>
-          <img src="./images/logo.svg" alt="" />
+          <img class="brand" src="./images/logo_footer.svg" alt="" />
         </figure>
-        <ul>
-          <li>About</li>
-          <li>Services</li>
-          <li>Projects</li>
-          <li>Contact</li>
+        <ul class="links">
+          <li><a href="">About</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Projects</a></li>
         </ul>
-        <ul>
-          <li><img src="./images/icon-instagram.svg" alt="" /></li>
-          <li><img src="./images/icon-twitter.svg" alt="" /></li>
-          <li><img src="./images/icon-pinterest.svg" alt="" /></li>
-          <li><img src="./images/icon-facebook.svg" alt="" /></li>
+        <ul class="social-networks">
+          <li>
+            <a href=""><i class="fab fa-facebook-square"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="fab fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="fab fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="fab fa-pinterest"></i></a>
+          </li>
         </ul>
       </section>
     </main>
@@ -187,5 +186,7 @@
         >Frontend Mentor</a
       >. Coded by <a href="#">Your Name Here</a>.
     </div>
+
+    <script src="./menu-functionality.js"></script>
   </body>
 </html>
