@@ -23,11 +23,23 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshots-solutions/screenshot1_desktop_solution.PNG)
+![](./screenshots-solutions/screenshot2_desktop_solution.PNG)
+![](./screenshots-solutions/screenshot3_desktop_solution.PNG)
+![](./screenshots-solutions/screenshot4_desktop_solution.PNG)
+![](./screenshots-solutions/screenshot5_desktop_solution.PNG)
+![](./screenshots-solutions/screenshot1_mobile_solution.PNG)
+![](./screenshots-solutions/screenshot2_mobile_solution.PNG)
+![](./screenshots-solutions/screenshot3_mobile_solution.PNG)
+![](./screenshots-solutions/screenshot4_mobile_solution.PNG)
+![](./screenshots-solutions/screenshot5_mobile_solution.PNG)
+![](./screenshots-solutions/screenshot6_mobile_solution.PNG)
+![](./screenshots-solutions/screenshot7_mobile_solution.PNG)
+![](./screenshots-solutions/screenshot8_mobile_solution.PNG)
 
 ### Links
 
-- Solution URL: [repository solution](https://your-solution-url.com)
+- Solution URL: [repository solution](https://github.com/EdisonPadilla/sunnyside-agency-landing-page.git)
 - Live Site URL: [live site (github page)](https://your-live-site-url.com)
 
 ## My process
@@ -43,4 +55,4 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@Evanny](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Evanny](https://www.frontendmentor.io/profile/Evanny)
