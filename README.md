@@ -40,7 +40,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [repository solution](https://github.com/EdisonPadilla/sunnyside-agency-landing-page.git)
-- Live Site URL: [live site (github page)](https://your-live-site-url.com)
+- Live Site URL: [live site (github page)](https://edisonpadilla.github.io/sunnyside-agency-landing-page/)
 
 ## My process
 
